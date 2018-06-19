@@ -107,35 +107,35 @@
 							<span>usd</span>
 							<span>200</span>
 						</p>
-						<section class="parameter-buttons">
-							<h3 class="parameter-buttons__text">Size</h3>
-							<ul class="parameter-buttons__list  list  list--no-list-style  list--inline">
-								<li class="parameter-buttons__list-item  list__item">
-									<button class="parameter-buttons__btn  btn  btn--black-text" type="button">7</button>
-								</li>
-								<li class="parameter-buttons__list-item  list__item">
-									<button class="parameter-buttons__btn  btn  btn--black-text" type="button">8</button>
-								</li>
-								<li class="parameter-buttons__list-item  list__item">
-									<button class="parameter-buttons__btn  btn  btn--black-text" type="button">9</button>
-								</li>
-								<li class="parameter-buttons__list-item  list__item">
-									<button class="parameter-buttons__btn  btn  btn--black-text  btn--bordered" type="button">10</button>
-								</li>
-								<li class="parameter-buttons__list-item  list__item">
-									<button class="parameter-buttons__btn  btn  btn--black-text" type="button">11</button>
-								</li>
-							</ul>
-						</section>
-						<form action="">
+						<form class="form" action="">
+							<fieldset class="form__fieldset">
+								<legend class="form__legend">Size</legend>
+								<ul class="form__list  list  list--no-list-style  list--inline">
+									<li class="form__list-item  list__item">
+										<input id="size-7" class="visually-hidden" type="radio" name="size" value="7">
+										<label for="size-7" class="form__radio-btn  btn  btn--black-text">7</label>
+									</li>
+									<li class="form__list-item  list__item">
+										<input id="size-8" class="visually-hidden" type="radio" name="size" value="8">
+										<label for="size-8" class="form__radio-btn  btn  btn--black-text">8</label>
+									</li>
+									<li class="form__list-item  list__item">
+										<input id="size-9" class="visually-hidden" type="radio" name="size" value="9">
+										<label for="size-9" class="form__radio-btn  btn  btn--black-text">9</label>
+									</li>
+									<li class="form__list-item  list__item">
+										<input id="size-10" class="visually-hidden" type="radio" name="size" value="10">
+										<label for="size-10" class="form__radio-btn  btn  btn--black-text  btn--bordered" >10</label>
+									</li>
+									<li class="form__list-item  list__item">
+										<input id="size-11" class="visually-hidden" type="radio" name="size" value="11">
+										<label for="size-11" class="form__radio-btn  btn  btn--black-text">11</label>
+									</li>
+								</ul>
+							</fieldset>
 							<input type="hidden">
-							<input type="hidden">
-							<button class="btn  btn--purple  btn--white-text  btn--medium" type="submit">Add to cart</button>
-						</form>
-						<form action="">
-							<input type="hidden">
-							<input type="hidden">
-							<button class="btn  btn--bordered  btn--black-text  btn--medium" type="submit">Wishlist</button>
+							<button name="button-cart" class="btn  btn--purple  btn--white-text  btn--medium" type="submit">Add to cart</button>
+							<button name="button-wishlist" class="btn  btn--bordered  btn--black-text  btn--medium" type="submit">Wishlist</button>
 						</form>
 					</div>
 				</article>

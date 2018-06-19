@@ -77,12 +77,20 @@ img {
 	line-height: 1.2;
 }
 
-.column--left {
+.column {
+	display: table-cell;
+}
+
+/*.column--left {
 	float: left;
 }
 
 .column--right {
 	float: right;
+}*/
+
+.card {
+	display: table;
 }
 
 .card__column--left {
@@ -154,6 +162,12 @@ img {
 	text-transform: uppercase;
 	vertical-align: top;
 	background-color: #ffa60d;
+}
+
+.form__fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 .main-header {
@@ -274,7 +288,7 @@ img {
 	vertical-align: top;
 }
 
-.parameter-buttons__btn {
+.form__radio-btn {
 	box-sizing: border-box;
 	margin-right: 24px;
 	width: 24px;
@@ -284,6 +298,6 @@ img {
 	line-height: 1.2;
 }
 
-.parameter-buttons__btn:last-child {
+.form__radio-btn:last-child {
 	margin-right: 0;
 }
